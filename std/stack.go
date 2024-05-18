@@ -1,5 +1,7 @@
 package std
 
+// Stack is simple array based implementation of stack which accepts items of type interface{}
+// which will require appropriate casting while using.
 type Stack struct {
 	ar []interface{}
 }
